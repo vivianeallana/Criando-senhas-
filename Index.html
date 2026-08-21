@@ -1,37 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de Senhas Fortes</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jornada pela IA</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="container">
-    <h1>🔒 Gerador de Senhas</h1>
-
-    <input type="text" id="senha" readonly placeholder="Sua senha aparecerá aqui">
-
-    <div class="config">
-        <label>
-            Tamanho:
-            <input type="number" id="tamanho" value="16" min="4" max="64">
-        </label>
-
-        <label><input type="checkbox" id="maiusculas" checked> Letras Maiúsculas</label>
-        <label><input type="checkbox" id="minusculas" checked> Letras Minúsculas</label>
-        <label><input type="checkbox" id="numeros" checked> Números</label>
-        <label><input type="checkbox" id="simbolos" checked> Símbolos</label>
-    </div>
-
-    <button onclick="gerarSenha()">Gerar Senha</button>
-    <button onclick="copiarSenha()">Copiar</button>
-
-    <p id="forca"></p>
+<div class="caixa-principal">
+<h1>Você decide o futuro da IA</h1>
+<div class="caixa-perguntas"></div>
+<div class="caixa-alternativas"></div>
+<div class="caixa-resultado">
+<p class="texto-resultado"></p>
+</div>
 </div>
 
 <script src="script.js"></script>
 </body>
 </html>
-
